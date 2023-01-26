@@ -1,0 +1,52 @@
+<!-- Define que el documento esta bajo el estandar de HTML 5 -->
+<!doctype html>
+
+<!-- Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. -->
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title> Formulario de Acceso </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Videojuegos & Desarrollo">
+    <meta name="description" content="Muestra de un formulario de acceso en HTML y CSS">
+    <meta name="keywords" content="Formulario Acceso, Formulario de LogIn">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style type="text/css">
+    </style>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <div class="row">
+                <img src="./assets/img/music.jpg" width="180px" height="180">
+            </div>
+            <div class="central">
+                <div id="login">
+                    <div class="titulo">
+                        <b>Login</b>
+                    </div>
+                    <form id="loginform">
+                        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                        <input type="email" name="usuario" placeholder="Correo" required>
+                        <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+                        <input type="password" placeholder="Contraseña" name="password" required>
+                    </form>
+                    <a href="./index.html" class="btn btn-primary">Escuchar canción</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
